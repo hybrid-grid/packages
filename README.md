@@ -7,16 +7,16 @@ Official package distribution for [Hybrid-Grid Build](https://github.com/hybrid-
 ### Linux / macOS (Install Script)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 ```
 
 **Options:**
 ```bash
 # Install specific version
-VERSION=0.1.0 curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+VERSION=0.1.0 curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 
 # Install to custom directory (no sudo required)
-INSTALL_DIR=~/.local/bin curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+INSTALL_DIR=~/.local/bin curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 ```
 
 ### macOS / Linux (Homebrew)
@@ -29,7 +29,7 @@ brew install hybridgrid
 ### Windows (Scoop)
 
 ```powershell
-scoop bucket add hybridgrid https://github.com/hybrid-grid/packages
+scoop bucket add hybridgrid https://github.com/hybrid-grid/homebrew-packages
 scoop install hybridgrid
 ```
 
@@ -74,7 +74,7 @@ scoop update hybridgrid
 ### Install Script
 ```bash
 # Re-run with new version
-VERSION=x.y.z curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+VERSION=x.y.z curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 ```
 
 ## Uninstalling

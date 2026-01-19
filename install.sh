@@ -1,15 +1,15 @@
 #!/bin/bash
 # Hybridgrid Installer
-# One-line install: curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+# One-line install: curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 #
 # Environment variables:
 #   VERSION      - Version to install (default: 0.1.0)
 #   INSTALL_DIR  - Installation directory (default: /usr/local/bin)
 #
 # Examples:
-#   curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
-#   VERSION=0.1.0 curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
-#   INSTALL_DIR=~/.local/bin curl -fsSL https://raw.githubusercontent.com/hybrid-grid/packages/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
+#   VERSION=0.1.0 curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
+#   INSTALL_DIR=~/.local/bin curl -fsSL https://raw.githubusercontent.com/hybrid-grid/homebrew-packages/main/install.sh | bash
 
 set -e
 
